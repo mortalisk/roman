@@ -29,11 +29,12 @@ def test_8():
     assert roman(8) == "VIII"
 
 
-#def test_random():
-#    range_size = 5
-#
-#    romans = set()
-#    for i in range(1, range_size):
-#        romans.add(roman(i))
-#
-#    assert len(romans) == range_size
+def test_random_fixed_list():
+    range_size = 5
+    results = ["I", "II", "III", "IV"]
+    romans = []
+    for i in range(1, range_size):
+        romans.append(roman(i))
+
+    assert romans == results
+    #assert len(romans) == range_size
