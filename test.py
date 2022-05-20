@@ -51,3 +51,6 @@ def test_random_fixed_list():
 
 def test_886():
     assert roman(886) == "DCCCLXXXVI"
+
+def test_1998():
+    assert roman(1998) == "MCMXCVIII"
