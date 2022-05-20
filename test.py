@@ -28,6 +28,8 @@ def test_9():
 def test_8():
     assert roman(8) == "VIII"
 
+def test_20():
+    assert rom
 
 def test_random_fixed_list():
     range_size = 5
