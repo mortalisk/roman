@@ -26,7 +26,7 @@ def test_9():
 
 
 def test_8():
-    assert roman(8) == "IIX"
+    assert roman(8) == "VIII"
 
 
 #def test_random():
