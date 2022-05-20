@@ -1,5 +1,15 @@
+import math
 
 def roman(value):
+    if value < 10:
+        if value == 9:
+            return "IX"
+        if value == 4:
+            return "IV"
+        if value == 5:
+            return "V"
+        return value * "I"
+
     if value >= 10:
         return "X" + roman(value-10)
     if value > 8:

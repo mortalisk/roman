@@ -38,3 +38,6 @@ def test_random_fixed_list():
 
     assert romans == results
     #assert len(romans) == range_size
+
+def test_886():
+    assert roman(886) == "DCCCLXXXVI"
