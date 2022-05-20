@@ -1,9 +1,13 @@
 import math
 
 def roman(value):
-    if value < 10:
+    if value < 100:
+        if value == 40:
+            return "XL"
+        if value == 50:
+            return "L"
         if value % 10 == 0:
-            return (value % 10) * "X"
+            return (value // 10) * "X"
         if value == 9:
             return "IX"
         if value == 4:

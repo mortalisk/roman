@@ -29,7 +29,16 @@ def test_8():
     assert roman(8) == "VIII"
 
 def test_20():
-    assert rom
+    assert roman(20) == "XX"
+
+def test_30():
+    assert roman(30) == "XXX"
+
+def test_40():
+    assert roman(40) == "XL"
+
+def test_50():
+    assert roman(50) == "L"
 
 def test_random_fixed_list():
     range_size = 5
