@@ -1,6 +1,12 @@
 import math
 
 def roman(value):
+    retval = ""
+    if value % 500 == 0:
+        retval =  (value // 500) * "L"
+    if value % 100 == 0:
+        retval +=  (value // 100) * "X"
+
     if value < 100:
         if value == 40:
             return "XL"
