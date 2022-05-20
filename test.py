@@ -16,6 +16,19 @@ def test_7():
 def test_bigger_than_10():
     assert roman(11) == "XI"
 
+
+def test_12():
+    assert roman(12) == "XII"
+
+
+def test_9():
+    assert roman(9) == "IX"
+
+
+def test_8():
+    assert roman(8) == "IIX"
+
+
 #def test_random():
 #    range_size = 5
 #
